@@ -67,10 +67,11 @@ body > .footer-wrapper .footer .copyright { font-size:12px; }
 .list table thead tr.field-name th { color:#000; font-weight:normal; padding:10px; text-align:left; text-transform:uppercase; }
 .list table thead tr.field-name th:first-child { border-radius:5px 0 0 0; }
 .list table thead tr.field-name th:last-child { border-radius:0 5px 0 0; }
-.list table thead tr.field-name th a { color:#000; display:block; text-decoration:none; }
+.list table thead tr.field-name th a { display:block; text-decoration:none; }
+.list table thead tr.field-name th span { color:#000; display:block; }
 .list table thead tr.field-filter { background:#fff; border-bottom:1px solid #e2e7eb; }
 .list table thead tr.field-filter th { padding:5px; }
-.list table tbody tr { background:#f0f0f0; }
+.list table tbody tr { background:#f1f2f4; }
 .list table tbody tr:nth-child(odd) { background:#fff; }
 .list table tbody tr:hover { background:#fffbbb; }
 .list table tbody tr td { cursor:default; padding:8px 10px; }
@@ -78,7 +79,7 @@ body > .footer-wrapper .footer .copyright { font-size:12px; }
 .list table tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; height:40px; }
 .list .fixed-head { background:#d9e0e7; display:none; padding-top:15px; position:fixed; top:50px; width:calc( 100% - 270px ); }
 .list .fixed-head table { position:relative; z-index:2; }
-.list .fixed-head:after { bottom:0; box-shadow:0 1px 5px #000; content:''; height:1px; position:absolute; width:100%; z-index:1; }
+.list .fixed-head:after { bottom:0; box-shadow:0 0 5px #000; content:''; height:1px; position:absolute; width:100%; z-index:1; }
 
 
 /**
