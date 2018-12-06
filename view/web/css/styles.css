@@ -18,7 +18,7 @@
 body { background:#d9e0e7; color:#555; font:14px/20px 'Microsoft YaHei', Arial, Helvetica, sans-serif; }
 
 
-.button { background:#000; border:0; border-radius:5px; cursor:pointer; display:inline-block; }
+.button { background:#000; border:0; border-radius:5px; cursor:pointer; display:inline-block; text-decoration:none; }
 .button span { color:#fff; display:block; font:16px/20px 'Microsoft YaHei', Arial, Helvetica, sans-serif; padding:6px 24px; text-transform:uppercase; }
 .input-box { background:#e5f7fe; border:1px solid #d3d8de; border-radius:3px; color:#555; font:14px/20px 'Microsoft YaHei', Arial, Helvetica, sans-serif; padding:4px 10px; width:100%; }
 .input-box:focus { border:1px solid #bbb; }
@@ -79,11 +79,12 @@ body > .footer-wrapper .footer .copyright { font-size:12px; }
 .backend-grid table thead tr.field-name th span { color:#000; display:block; }
 .backend-grid table thead tr.field-filter { background:#fff; border-bottom:1px solid #e2e7eb; }
 .backend-grid table thead tr.field-filter th { padding:5px; }
-.backend-grid table thead tr th.actions { width:130px; }
+.backend-grid table thead tr th.actions { text-align:center; width:130px; }
 .backend-grid table tbody tr { background:#f1f2f4; }
 .backend-grid table tbody tr:nth-child(odd) { background:#fff; }
 .backend-grid table tbody tr:hover { background:#fffbbb; }
 .backend-grid table tbody tr td { cursor:default; padding:6px 10px; }
+.backend-grid table tbody tr td.no-record { padding:10px; text-align:center; }
 .backend-grid table tfoot tr { border-top:1px solid #e2e7eb; }
 .backend-grid table tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; height:40px; }
 .backend-grid .fixed-head { background:#d9e0e7; padding:10px 0 0; position:fixed; top:122px; width:calc( 100% - 270px ); }
