@@ -30,10 +30,11 @@ select:focus { border:1px solid #bbb; }
  * Frame
  */
 body > .wrapper { position:relative; }
-body > .header-wrapper { background:#fff; height:60px; left:240px; position:fixed; top:0; width:100%; z-index:3; }
+body > .header-wrapper { background:#fff; border-bottom:1px solid #bbb; height:60px; left:240px; position:fixed; top:0; width:calc( 100% - 240px ); z-index:3; }
 body > .header-wrapper:before { background:#fff; bottom:0; content:''; left:0; opacity:.6; position:absolute; right:0; top:0; }
-body > .header-wrapper .header { border-bottom:1px solid #bbb; padding:15px 20px; position:relative; }
-body > .header-wrapper .header .page-title { font-size:24px; font-weight:normal; line-height:30px; }
+body > .header-wrapper .header { padding:15px 20px; position:relative; }
+body > .header-wrapper .header .page-title { float:left; font-size:24px; font-weight:normal; line-height:30px; }
+body > .header-wrapper .header .actions { float:right; }
 body > .header-wrapper .header:after { clear:both; content:''; display:table; height:0; }
 body > .main-wrapper { z-index:2; }
 body > .main-wrapper .left { bottom:0; left:0; overflow:hidden; position:fixed; top:0; width:240px; }
