@@ -17,6 +17,12 @@ return [
         'css/styles.css'
     ],
     'blocks' => [
+        'head' => [
+                [ 'class' => 'CrazyCat\Index\Block\Template', 'data' => [ 'template' => 'CrazyCat\Index::head' ] ]
+        ],
+        'header' => [
+                [ 'class' => 'CrazyCat\Index\Block\Template', 'data' => [ 'template' => 'CrazyCat\Index::header' ] ]
+        ],
         'left' => [
                 [ 'class' => 'CrazyCat\Admin\Block\Menu' ]
         ],
