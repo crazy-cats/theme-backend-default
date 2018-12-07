@@ -9,8 +9,29 @@
  * @author Bruce Z <152416319@qq.com>
  * @link http://crazy-cat.co
  */
+@font-face {
+    font-family: 'Awesome Solid';
+    font-style: normal;
+    font-weight: 900;
+    src: url(../fonts/fa-solid-900.eot);
+    src: url(../fonts/fa-solid-900.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/fa-solid-900.woff2) format('woff2'),
+        url(../fonts/fa-solid-900.woff) format('woff'),
+        url(../fonts/fa-solid-900.ttf) format('truetype'),
+        url(../fonts/fa-solid-900.svg#fontawesome) format('svg');
+}
 
-@import url(icons.css);
+@font-face {
+    font-family: 'Awesome Brands';
+    font-style: normal;
+    font-weight: 400;
+    src: url(../fonts/fa-brands-400.eot);
+    src: url(../fonts/fa-brands-400.eot?#iefix) format('embedded-opentype'),
+        url(../fonts/fa-brands-400.woff2) format('woff2'),
+        url(../fonts/fa-brands-400.woff) format('woff'),
+        url(../fonts/fa-brands-400.ttf) format('truetype'),
+        url(../fonts/fa-brands-400.svg#fontawesome) format('svg');
+}
 
 
 * { box-sizing:border-box; margin:0; outline:none; padding:0; }
@@ -44,6 +65,14 @@ body > .main-wrapper .main { margin:50px 0 0 240px; padding:15px; }
 body > .footer-wrapper { margin:0 0 0 240px; padding:20px; z-index:1; }
 body > .footer-wrapper .footer { text-align:right; }
 body > .footer-wrapper .footer .copyright { font-size:12px; }
+
+
+/**
+ * Loader
+ */
+body > .loader { bottom:0; left:0; position:fixed; right:0; top:0; z-index:9999; }
+body > .loader:before { background:#fff; bottom:0; content:''; left:0; opacity:.6; position:absolute; right:0; top:0; }
+body > .loader:after { background:url(../images/loading.gif) center center no-repeat; content:''; height:50px; left:calc( 50% - 64px ); position:absolute; top:35%; width:64px; }
 
 
 /**
