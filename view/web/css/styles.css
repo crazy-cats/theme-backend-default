@@ -61,7 +61,7 @@ body > .main-wrapper { z-index:2; }
 body > .main-wrapper .left { bottom:0; left:0; overflow:hidden; position:fixed; top:0; width:240px; }
 body > .main-wrapper .left:before { background:#333; bottom:0; content:''; left:0; position:absolute; right:0; top:0; }
 body > .main-wrapper .left > div { position:relative; }
-body > .main-wrapper .main { margin:50px 0 0 240px; padding:15px; }
+body > .main-wrapper .main { margin:60px 0 0 240px; padding:10px 15px; }
 body > .footer-wrapper { margin:0 0 0 240px; padding:20px; z-index:1; }
 body > .footer-wrapper .footer { text-align:right; }
 body > .footer-wrapper .footer .copyright { font-size:12px; }
@@ -81,8 +81,8 @@ body > .loader:after { background:url(../images/loading.gif) center center no-re
 .messages .message-group { margin:0 0 20px; position:relative; }
 .messages .message-group:before { border-radius:5px; bottom:0; content:''; left:0; opacity:.4; position:absolute; right:0; top:0; }
 .messages .message-group.error:before { background:#f00; }
-.messages .message-group.notice:before { background:#f00; }
-.messages .message-group.success:before { background:#f00; }
+.messages .message-group.notice:before { background:#fffbbb; }
+.messages .message-group.success:before { background:#79a22e; }
 .messages .message-group ul { position:relative; }
 .messages .message-group li { color:#fff; list-style:none; padding:12px 20px; }
 
@@ -90,16 +90,16 @@ body > .loader:after { background:url(../images/loading.gif) center center no-re
 /**
  * List
  */
-.backend-grid .navigation-wrapper { background:#d9e0e7; padding:10px 0; position:fixed; top:60px; width:calc( 100% - 270px ); }
-.backend-grid .navigation { background:#fff; border-radius:5px; padding:10px; }
-.backend-grid .navigation span { display:inline-block; }
-.backend-grid .navigation .page-limit { float:left; width:30%; }
-.backend-grid .navigation .page-limit select { margin:0 5px 0 0; width:80px; }
-.backend-grid .navigation .pagination { float:left; text-align:center; width:40%; }
-.backend-grid .navigation .pagination .current { margin:0 5px; }
-.backend-grid .navigation .actions { float:right; text-align:right; width:30%; }
-.backend-grid .navigation:after { clear:both; content:''; display:table; height:0; }
-.backend-grid table { border-collapse:collapse; margin:67px 0 0; width:100%; }
+.backend-grid table { border-collapse:collapse; width:100%; }
+.backend-grid table thead tr .navigation-wrapper { background:#d9e0e7; padding:0 0 10px; }
+.backend-grid table thead tr .navigation { background:#fff; border-radius:5px; font-weight:normal; padding:10px; text-align:left; }
+.backend-grid table thead tr .navigation span { display:inline-block; }
+.backend-grid table thead tr .navigation .page-limit { float:left; width:30%; }
+.backend-grid table thead tr .navigation .page-limit select { margin:0 5px 0 0; width:80px; }
+.backend-grid table thead tr .navigation .pagination { float:left; text-align:center; width:40%; }
+.backend-grid table thead tr .navigation .pagination .current { margin:0 5px; }
+.backend-grid table thead tr .navigation .actions { float:right; text-align:right; width:30%; }
+.backend-grid table thead tr .navigation:after { clear:both; content:''; display:table; height:0; }
 .backend-grid table thead tr.field-name { background:#f3f6f9; border-bottom:1px solid #e2e7eb; }
 .backend-grid table thead tr.field-name th { color:#000; font-weight:normal; padding:10px; text-align:left; text-transform:uppercase; }
 .backend-grid table thead tr.field-name th:first-child { border-radius:5px 0 0 0; }
@@ -116,7 +116,7 @@ body > .loader:after { background:url(../images/loading.gif) center center no-re
 .backend-grid table tbody tr td.no-record { padding:10px; text-align:center; }
 .backend-grid table tfoot tr { border-top:1px solid #e2e7eb; }
 .backend-grid table tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; height:40px; }
-.backend-grid .fixed-head { background:#d9e0e7; padding:10px 0 0; position:fixed; top:122px; width:calc( 100% - 270px ); }
+.backend-grid .fixed-head { background:#d9e0e7; display:none; padding:10px 0 0; position:fixed; top:60px; width:calc( 100% - 270px ); }
 .backend-grid .fixed-head table { margin:0; position:relative; z-index:2; }
 .backend-grid .fixed-head:after { bottom:0; box-shadow:0 0 5px #000; content:''; height:1px; position:absolute; width:100%; z-index:1; }
 
@@ -124,7 +124,7 @@ body > .loader:after { background:url(../images/loading.gif) center center no-re
 /**
  * Edit form
  */
-.backend-edit { background:#fff; border-radius:5px; margin:5px 0; padding:20px; }
+.backend-edit { background:#fff; border-radius:5px; padding:20px; }
 .backend-edit .row { margin:0 0 15px; }
 .backend-edit .row .field-name { display:block; float:left; padding:6px 10px; width:180px; }
 .backend-edit .row .field-content { float:left; width:400px; }
