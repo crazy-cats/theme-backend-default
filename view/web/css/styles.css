@@ -78,13 +78,13 @@ body > .loader:after { background:url(../images/loading.gif) center center no-re
 /**
  * Messages
  */
-.messages .message-group { margin:0 0 20px; position:relative; }
+.messages .message-group { margin:0 0 15px; position:relative; }
 .messages .message-group:before { border-radius:5px; bottom:0; content:''; left:0; opacity:.4; position:absolute; right:0; top:0; }
 .messages .message-group.error:before { background:#f00; }
 .messages .message-group.notice:before { background:#fffbbb; }
 .messages .message-group.success:before { background:#79a22e; }
 .messages .message-group ul { position:relative; }
-.messages .message-group li { color:#fff; list-style:none; padding:12px 20px; }
+.messages .message-group li { color:#fff; list-style:none; padding:14px 20px; }
 
 
 /**
