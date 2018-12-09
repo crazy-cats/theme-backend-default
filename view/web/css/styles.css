@@ -108,11 +108,13 @@ body > .loader:after { background:url(../images/loading.gif) center center no-re
 .backend-grid table thead tr.field-name th span { color:#000; display:block; }
 .backend-grid table thead tr.field-filter { background:#fff; border-bottom:1px solid #e2e7eb; }
 .backend-grid table thead tr.field-filter th { padding:5px; }
+.backend-grid table thead tr th.ids { text-align:center; width:55px; }
 .backend-grid table thead tr th.actions { text-align:center; width:130px; }
 .backend-grid table tbody tr { background:#f1f2f4; }
 .backend-grid table tbody tr:nth-child(odd) { background:#fff; }
 .backend-grid table tbody tr:hover { background:#fffbbb; }
 .backend-grid table tbody tr td { cursor:default; padding:6px 10px; }
+.backend-grid table tbody tr td.ids { text-align:center; }
 .backend-grid table tbody tr td.no-record { padding:10px; text-align:center; }
 .backend-grid table tfoot tr { border-top:1px solid #e2e7eb; }
 .backend-grid table tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; height:40px; }
