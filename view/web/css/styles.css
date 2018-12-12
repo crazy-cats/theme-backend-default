@@ -161,16 +161,15 @@ body > .loader:after { background:url(../images/loading.gif) center center no-re
 .main-menu > ul > li > a:hover span,
 .main-menu > ul > li.active > a span { color:#fff; }
 .main-menu > ul > li.item-admin > a:before { content:'\f508'; }
-.main-menu > ul > li.item-logout > a:before { content:'\f2f5'; }
+.main-menu > ul > li.item-admin-index-logout > a:before { content:'\f2f5'; }
 /* level 2 */
 .main-menu > ul > li ul { position:relative; z-index:1; }
 .main-menu > ul > li ul li a { padding:8px 10px 8px 40px; }
 .main-menu > ul > li ul li a span { color:#a8acb1; font-size:14px; }
 .main-menu > ul > li ul li:hover a span,
 .main-menu > ul > li ul li.active a span { color:#fff; }
-.main-menu > ul > li ul { height:0; opacity:0; overflow:hidden; transition:.6s; }
-.main-menu > ul > li:hover > ul,
-.main-menu > ul > li.active > ul { height:80px; opacity:1; }
+.main-menu > ul > li ul { display:none; }
+.main-menu > ul > li.active ul { display:block; }
 
 
 /**
