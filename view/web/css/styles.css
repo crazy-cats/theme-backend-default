@@ -160,6 +160,7 @@ body > .loader:after { background:url(../images/loading.gif) center center no-re
 .main-menu > ul > li.active > a:before,
 .main-menu > ul > li > a:hover span,
 .main-menu > ul > li.active > a span { color:#fff; }
+.main-menu > ul > li.item-cms > a:before { content:'\f15c'; }
 .main-menu > ul > li.item-admin > a:before { content:'\f508'; }
 .main-menu > ul > li.item-admin-index-logout > a:before { content:'\f2f5'; }
 /* level 2 */
