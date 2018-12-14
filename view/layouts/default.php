@@ -18,23 +18,23 @@ return [
     ],
     'blocks' => [
         'head' => [
-            'js-in-head' => [ 'class' => 'CrazyCat\Index\Block\Template', 'data' => [ 'template' => 'CrazyCat\Index::head' ] ]
+            'js-in-head' => [ 'class' => 'CrazyCat\Core\Block\Template', 'data' => [ 'template' => 'CrazyCat\Core::head' ] ]
         ],
         'header' => [
-            'page-title' => [ 'class' => 'CrazyCat\Index\Block\Template', 'data' => [ 'template' => 'CrazyCat\Index::header' ] ]
+            'page-title' => [ 'class' => 'CrazyCat\Core\Block\Template', 'data' => [ 'template' => 'CrazyCat\Core::header' ] ]
         ],
         'left' => [
-            'lang-switcher' => [ 'class' => 'CrazyCat\Index\Block\LanguageSwitcher' ],
+            'lang-switcher' => [ 'class' => 'CrazyCat\Core\Block\LanguageSwitcher' ],
             'main-menu' => [ 'class' => 'CrazyCat\Admin\Block\Menu' ]
         ],
         'messages' => [
-            'message-box' => [ 'class' => 'CrazyCat\Index\Block\Message' ]
+            'message-box' => [ 'class' => 'CrazyCat\Core\Block\Message' ]
         ],
         'main' => [
-            'main-content' => [ 'class' => 'CrazyCat\Index\Block\Template', 'data' => [ 'template' => 'CrazyCat\Index::main' ] ]
+            'main-content' => [ 'class' => 'CrazyCat\Core\Block\Template', 'data' => [ 'template' => 'CrazyCat\Core::main' ] ]
         ],
         'footer' => [
-            'footer-content' => [ 'class' => 'CrazyCat\Index\Block\Template', 'data' => [ 'template' => 'CrazyCat\Index::footer' ] ]
+            'footer-content' => [ 'class' => 'CrazyCat\Core\Block\Template', 'data' => [ 'template' => 'CrazyCat\Core::footer' ] ]
         ]
     ]
 ];
