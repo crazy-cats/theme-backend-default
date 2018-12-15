@@ -107,7 +107,10 @@ body > .loader:after { background:url(../images/loading.gif) center center no-re
 .backend-grid table thead tr.field-name th:first-child { border-radius:5px 0 0 0; }
 .backend-grid table thead tr.field-name th:last-child { border-radius:0 5px 0 0; }
 .backend-grid table thead tr.field-name th a { display:block; text-decoration:none; }
-.backend-grid table thead tr.field-name th span { color:#000; display:block; }
+.backend-grid table thead tr.field-name th a span { color:#000; margin:0 5px 0 0; }
+.backend-grid table thead tr.field-name th a:after { color:#555; font-family:'Awesome Solid'; }
+.backend-grid table thead tr.field-name th a.asc:after { content:'\f106'; }
+.backend-grid table thead tr.field-name th a.desc:after { content:'\f107'; }
 .backend-grid table thead tr.field-filter { background:#fff; border-bottom:1px solid #e2e7eb; }
 .backend-grid table thead tr.field-filter th { padding:5px; }
 .backend-grid table thead tr th.ids { text-align:center; width:55px; }
