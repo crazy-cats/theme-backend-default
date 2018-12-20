@@ -92,7 +92,7 @@ body > .loader:after { background:url(../images/loading.gif) center center no-re
 /**
  * Profile
  */
-.profiles { border-collapse:collapse; margin:0 0 15px 255px; }
+.profiles { border-collapse:collapse; border-radius:5px; bottom:0; box-shadow:0 0 15px #000; margin:0 0 15px 255px; position:relative; z-index:9999; }
 .profiles thead tr { background:#f3f6f9; border-bottom:1px solid #e2e7eb; }
 .profiles thead th { color:#000; font-weight:normal; padding:10px 15px; text-align:left; text-transform:uppercase; }
 .profiles thead th:first-child { border-radius:5px 0 0 0; }
