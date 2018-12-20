@@ -101,8 +101,7 @@ body > .loader:after { background:url(../images/loading.gif) center center no-re
 .profiles tbody tr:nth-child(odd) { background:#fff; }
 .profiles tbody tr:hover { background:#fffbbb; }
 .profiles tbody tr td { cursor:default; padding:6px 15px; }
-.profiles tbody tr td.ids { text-align:center; }
-.profiles tbody tr td.no-record { padding:10px; text-align:center; }
+.profiles tbody tr td span { font-style:italic; font-weight:bold; margin-right:5px; }
 .profiles tfoot tr { border-top:1px solid #e2e7eb; }
 .profiles tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; height:10px; }
 
