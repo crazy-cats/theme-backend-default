@@ -92,18 +92,22 @@ body > .loader:after { background:url(../images/loading.gif) center center no-re
 /**
  * Profile
  */
-.profiles { border-collapse:collapse; border-radius:5px; bottom:0; box-shadow:0 0 15px #000; margin:0 0 15px 255px; position:relative; z-index:9999; }
-.profiles thead tr { background:#f3f6f9; border-bottom:1px solid #e2e7eb; }
-.profiles thead th { color:#000; font-weight:normal; padding:10px 15px; text-align:left; text-transform:uppercase; }
-.profiles thead th:first-child { border-radius:5px 0 0 0; }
-.profiles thead th:last-child { border-radius:0 5px 0 0; }
-.profiles tbody tr { background:#f1f2f4; }
-.profiles tbody tr:nth-child(odd) { background:#fff; }
-.profiles tbody tr:hover { background:#fffbbb; }
-.profiles tbody tr td { cursor:default; padding:6px 15px; }
-.profiles tbody tr td span { font-style:italic; font-weight:bold; margin-right:5px; }
-.profiles tfoot tr { border-top:1px solid #e2e7eb; }
-.profiles tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; height:10px; }
+table.profiles { border-collapse:collapse; border-radius:5px; bottom:0; box-shadow:0 0 15px #000; margin:0 0 15px 255px; position:relative; z-index:9999; }
+table.profiles thead tr { background:#f3f6f9; border-bottom:1px solid #e2e7eb; }
+table.profiles thead th { color:#000; font-weight:normal; padding:10px 15px; text-align:left; text-transform:uppercase; }
+table.profiles thead th:first-child { border-radius:5px 0 0 0; }
+table.profiles thead th:last-child { border-radius:0 5px 0 0; }
+table.profiles thead th.time,
+table.profiles thead th.memory { text-align:right; }
+table.profiles tbody tr { background:#f1f2f4; }
+table.profiles tbody tr:nth-child(odd) { background:#fff; }
+table.profiles tbody tr:hover { background:#fffbbb; }
+table.profiles tbody tr td { cursor:default; padding:6px 15px; }
+table.profiles tbody tr td.time,
+table.profiles tbody tr td.memory { text-align:right; }
+table.profiles tbody tr td span { font-style:italic; font-weight:bold; margin-right:5px; }
+table.profiles tfoot tr { border-top:1px solid #e2e7eb; }
+table.profiles tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; height:10px; }
 
 
 /**
