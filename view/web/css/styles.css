@@ -145,8 +145,8 @@ table.profiles tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; heig
 .backend-grid table tbody tr td.actions ul { position:relative; text-align:right; }
 .backend-grid table tbody tr td.actions li { list-style:none; position:relative; }
 .backend-grid table tbody tr td.actions li a { display:block; text-decoration:none; }
-.backend-grid table tbody tr td.actions li a span { color:#555; display:block; padding:8px 40px 8px 10px; }
-.backend-grid table tbody tr td.actions li ul { box-shadow:0 5px 8px #d3d8de; border-radius:0 0 5px 5px; display:none; position:absolute; width:100%; }
+.backend-grid table tbody tr td.actions li a span { color:#555; display:block; padding:8px 30px; white-space:nowrap; }
+.backend-grid table tbody tr td.actions li ul { box-shadow:0 5px 8px #d3d8de; border-radius:0 0 5px 5px; display:none; min-width:100%; position:absolute; right:0; }
 .backend-grid table tbody tr td.actions li:hover ul { display:block; }
 .backend-grid table tbody tr td.actions li ul a:last-child { border-radius:0 0 5px 5px; }
 .backend-grid table tbody tr td.actions li ul a:hover { background:#e5f7fe; }
