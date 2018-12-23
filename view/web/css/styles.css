@@ -85,8 +85,8 @@ body > .loader:after { background:url(../images/loading.gif) center center no-re
 .messages .message-group.error:before { background:#f00; }
 .messages .message-group.notice:before { background:#e5f7fe; }
 .messages .message-group.success:before { background:#79a22e; }
-.messages .message-group ul { position:relative; }
-.messages .message-group li { color:#fff; list-style:none; padding:14px 20px; }
+.messages .message-group ul { padding:14px 20px; position:relative; }
+.messages .message-group li { color:#fff; list-style:none; padding:2px 0; }
 
 
 /**
