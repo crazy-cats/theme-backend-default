@@ -139,8 +139,18 @@ table.profiles tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; heig
 .backend-grid table tbody tr { background:#f1f2f4; }
 .backend-grid table tbody tr:nth-child(odd) { background:#fff; }
 .backend-grid table tbody tr:hover { background:#fffbbb; }
-.backend-grid table tbody tr td { cursor:default; padding:6px 10px; }
+.backend-grid table tbody tr td { cursor:default; padding:8px 10px; }
 .backend-grid table tbody tr td.ids { text-align:center; }
+.backend-grid table tbody tr td.actions { padding:0; }
+.backend-grid table tbody tr td.actions ul { position:relative; text-align:right; }
+.backend-grid table tbody tr td.actions li { list-style:none; position:relative; }
+.backend-grid table tbody tr td.actions li a { display:block; text-decoration:none; }
+.backend-grid table tbody tr td.actions li a span { color:#555; display:block; padding:8px 40px 8px 10px; }
+.backend-grid table tbody tr td.actions li ul { box-shadow:0 5px 8px #d3d8de; border-radius:0 0 5px 5px; display:none; position:absolute; width:100%; }
+.backend-grid table tbody tr td.actions li:hover ul { display:block; }
+.backend-grid table tbody tr td.actions li ul a:last-child { border-radius:0 0 5px 5px; }
+.backend-grid table tbody tr td.actions li ul a:hover { background:#e5f7fe; }
+.backend-grid table tbody tr td.actions li ul:after { background:#e5f7fe; border-radius:0 0 5px 5px; bottom:0; content:''; display:block; left:0; opacity:.6; position:absolute; right:0; top:0; z-index:-1; }
 .backend-grid table tbody tr td.no-record { padding:10px; text-align:center; }
 .backend-grid table tfoot tr { border-top:1px solid #e2e7eb; }
 .backend-grid table tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; height:40px; }
@@ -189,6 +199,7 @@ table.profiles tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; heig
 .main-menu > ul > li.active > a span { color:#fff; }
 .main-menu > ul > li.item-cms > a:before { content:'\f15c'; }
 .main-menu > ul > li.item-admin > a:before { content:'\f508'; }
+.main-menu > ul > li.item-menu-menu-index > a:before { content:'\f0c9'; }
 .main-menu > ul > li.item-system-stage-index > a:before { content:'\f06e'; }
 .main-menu > ul > li.item-system-config-index > a:before { content:'\f0ad'; }
 .main-menu > ul > li.item-system-index-logout > a:before { content:'\f2f5'; }
