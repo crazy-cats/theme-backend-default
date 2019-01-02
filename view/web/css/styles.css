@@ -244,22 +244,22 @@ body.system-index-login > .footer-wrapper .footer .copyright { color:#f0f0f0; fo
 .field-group-content .field-content .source-box table thead tr.captions { background:#f3f6f9; border-bottom:1px solid #e2e7eb; border-radius:5px 5px 0 0; }
 .field-group-content .field-content .source-box table thead tr.captions th { color:#000; font-weight:normal; padding:10px; text-align:left; text-transform:uppercase; }
 .field-group-content .field-content .source-box table thead tr.captions th:last-child { border-radius:0 5px 0 0; }
-.field-group-content .field-content .source-box table thead tr.captions th.ids { text-align:center; width:55px; }
+.field-group-content .field-content .source-box table thead tr.captions th.ids { padding:10px 18px; width:78px; }
 .field-group-content .field-content .source-box table thead tr.captions th a { display:block; text-decoration:none; }
 .field-group-content .field-content .source-box table thead tr.captions th a span { color:#000; margin:0 5px 0 0; }
 .field-group-content .field-content .source-box table thead tr.filters { background:#fff; border-bottom:1px solid #e2e7eb; }
 .field-group-content .field-content .source-box table thead tr.filters th { padding:5px 3px; }
+.field-group-content .field-content .source-box table thead tr.filters th:first-child { padding:5px 3px 5px 6px; }
 .field-group-content .field-content .source-box table thead tr.filters th:last-child { padding:5px 6px 5px 3px; }
 .field-group-content .field-content .source-box table thead tr.filters th .input-text { padding:6px 13px; }
-.field-group-content .field-content .source-box table thead tr.filters th select { padding:6px 10px; }
+.field-group-content .field-content .source-box table thead tr.filters th select { height:34px; padding:6px 10px; }
 .field-group-content .field-content .source-box table tbody tr { background:#f1f2f4; }
 .field-group-content .field-content .source-box table tbody tr:nth-child(odd) { background:#fff; }
 .field-group-content .field-content .source-box table tbody tr:hover { background:#fffbbb; }
-.field-group-content .field-content .source-box table tbody tr td { padding:8px 18px; }
-.field-group-content .field-content .source-box table tbody tr td.ids { text-align:center; }
+.field-group-content .field-content .source-box table tbody tr td { cursor:default; padding:8px 18px; }
 .field-group-content .field-content .source-box table tbody tr td.no-record { padding:10px; text-align:center; }
 .field-group-content .field-content .source-box table tfoot tr { border-top:1px solid #e2e7eb; }
-.field-group-content .field-content .source-box table tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; padding:5px; }
+.field-group-content .field-content .source-box table tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; padding:5px 10px 5px 5px; }
 .field-group-content .field-content .source-box table tfoot tr td .page-limit { display:inline-block; width:50%; }
 .field-group-content .field-content .source-box table tfoot tr td .page-limit select { margin:0 5px 0 0; padding:6px 10px; width:80px; }
 .field-group-content .field-content .source-box table tfoot tr td .pagination { display:inline-block; text-align:right; width:50%; }
