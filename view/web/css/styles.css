@@ -127,6 +127,7 @@ table.profiles tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; heig
 .backend-grid table thead tr.field-name th { color:#000; font-weight:normal; padding:10px; text-align:left; text-transform:uppercase; }
 .backend-grid table thead tr.field-name th:first-child { border-radius:5px 0 0 0; }
 .backend-grid table thead tr.field-name th:last-child { border-radius:0 5px 0 0; }
+.backend-grid table thead tr.field-name th.actions { padding-right:30px; text-align:right; }
 .backend-grid table thead tr.field-name th a { display:block; text-decoration:none; }
 .backend-grid table thead tr.field-name th a span { color:#000; margin:0 5px 0 0; }
 .backend-grid table thead tr.field-name th a:after { color:#555; font-family:'Awesome Solid'; }
