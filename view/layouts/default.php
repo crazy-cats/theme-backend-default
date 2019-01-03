@@ -18,7 +18,7 @@ return [
     ],
     'blocks' => [
         'head' => [
-            'js-in-head' => [ 'class' => 'CrazyCat\Core\Block\Template', 'data' => [ 'template' => 'CrazyCat\Core::head' ] ]
+            'js-in-head' => [ 'class' => 'CrazyCat\Core\Block\Head' ]
         ],
         'header' => [
             'page-title' => [ 'class' => 'CrazyCat\Core\Block\Template', 'data' => [ 'template' => 'CrazyCat\Core::header' ] ]
