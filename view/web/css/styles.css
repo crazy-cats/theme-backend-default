@@ -234,8 +234,8 @@ body.system-index-login .block-login > div { position:relative; z-index:3; }
 body.system-index-login .block-login .block-title { cursor:default; left:-7px; opacity:.2; position:absolute; top:-18px; user-select:none; z-index:2; }
 body.system-index-login .block-login .block-title h1:before { color:#fff; content:'Login'; font-size:96px; line-height:96px; text-transform:uppercase; }
 body.system-index-login .block-login .field { margin:0 0 15px; }
-body.system-index-login .block-login .field .input-box { background:#f0f0f0; border:1px solid #333; border-radius:3px; color:#555; font:16px/20px 'Microsoft YaHei', Arial, Helvetica, sans-serif; padding:8px 14px; width:100%; }
-body.system-index-login .block-login .field .input-box:focus { border:1px solid #999; box-shadow:0 0 8px #fff; }
+body.system-index-login .block-login .field .input-text { background:#f0f0f0; border:1px solid #333; border-radius:3px; color:#555; font:16px/20px 'Microsoft YaHei', Arial, Helvetica, sans-serif; padding:8px 14px; width:100%; }
+body.system-index-login .block-login .field .input-text:focus { border:1px solid #999; box-shadow:0 0 8px #fff; }
 body.system-index-login .block-login .actions { margin:20px 0 0; }
 body.system-index-login > .footer-wrapper .footer .copyright { color:#f0f0f0; font-size:14px; text-align:center; }
 
