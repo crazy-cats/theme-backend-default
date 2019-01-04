@@ -134,7 +134,9 @@ table.profiles tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; heig
 .backend-grid table thead tr.field-name th a.asc:after { content:'\f106'; }
 .backend-grid table thead tr.field-name th a.desc:after { content:'\f107'; }
 .backend-grid table thead tr.field-filter { background:#fff; border-bottom:1px solid #e2e7eb; }
-.backend-grid table thead tr.field-filter th { padding:5px; }
+.backend-grid table thead tr.field-filter th { padding:4px 3px; }
+.backend-grid table thead tr.field-filter th:first-child { padding:4px 3px 4px 5px; }
+.backend-grid table thead tr.field-filter th:last-child { padding:4px 5px 4px 3px; }
 .backend-grid table thead tr.field-filter th .input-text { padding:5px 10px; }
 .backend-grid table thead tr th.ids { text-align:center; width:55px; }
 .backend-grid table thead tr th.actions { text-align:center; width:130px; }
