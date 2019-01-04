@@ -201,6 +201,7 @@ table.profiles tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; heig
 .main-menu > ul > li.active > a span { color:#fff; }
 .main-menu > ul > li.item-cms > a:before { content:'\f15c'; }
 .main-menu > ul > li.item-admin > a:before { content:'\f508'; }
+.main-menu > ul > li.item-url-rewrite-url-rewrite-index > a:before { content:'\f5eb'; }
 .main-menu > ul > li.item-menu-menu-index > a:before { content:'\f0c9'; }
 .main-menu > ul > li.item-system-stage-index > a:before { content:'\f06e'; }
 .main-menu > ul > li.item-system-config-index > a:before { content:'\f0ad'; }
