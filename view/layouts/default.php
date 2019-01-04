@@ -12,7 +12,7 @@
  * @link http://crazy-cat.co
  */
 return [
-    'template' => '2columns-left',
+    'template' => '2columns_left',
     'css' => [
         'css/styles.css'
     ],
