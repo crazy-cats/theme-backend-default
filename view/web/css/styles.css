@@ -194,14 +194,15 @@ table.profiles tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; heig
 .main-menu > ul li a span { display:inline-block; }
 /* level 1 */
 .main-menu > ul > li { border-bottom:1px solid #46505a; }
-.main-menu > ul > li > a { padding:0 0 0 15px; position:relative; }
-.main-menu > ul > li > a:before { color:#a8acb1; content:''; display:inline-block; font:16px/20px 'Awesome Solid'; width:25px; }
+.main-menu > ul > li > a { padding:0 0 0 5px; position:relative; }
+.main-menu > ul > li > a:before { color:#a8acb1; content:''; display:inline-block; font:16px/20px 'Awesome Solid'; text-align:center; width:35px; }
 .main-menu > ul > li > a span { color:#a8acb1; font-size:16px; padding:10px 0; }
 .main-menu > ul > li > a:hover:before,
 .main-menu > ul > li.active > a:before,
 .main-menu > ul > li > a:hover span,
 .main-menu > ul > li.active > a span { color:#fff; }
 .main-menu > ul > li.item-cms > a:before { content:'\f15c'; }
+.main-menu > ul > li.item-customer > a:before { content:'\f0c0'; }
 .main-menu > ul > li.item-admin > a:before { content:'\f508'; }
 .main-menu > ul > li.item-url-rewrite-url-rewrite-index > a:before { content:'\f5eb'; }
 .main-menu > ul > li.item-menu-menu-index > a:before { content:'\f0c9'; }
