@@ -209,6 +209,7 @@ table.profiles tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; heig
 .main-menu > ul > li.item-system-stage-index > a:before { content:'\f06e'; }
 .main-menu > ul > li.item-system-config-index > a:before { content:'\f0ad'; }
 .main-menu > ul > li.item-system-index-logout > a:before { content:'\f2f5'; }
+.main-menu > ul > li.item-banner > a:before { content:'\f03e'; }
 /* level 2 */
 .main-menu > ul > li ul { position:relative; z-index:1; }
 .main-menu > ul > li ul li a { padding:8px 10px 8px 40px; }
