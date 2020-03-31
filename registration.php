@@ -5,12 +5,12 @@
  * See COPYRIGHT.txt for license details.
  */
 
-use CrazyCat\Framework\App\Setup\Component;
+use CrazyCat\Framework\App\Component\Manager as ComponentManager;
 
 /**
  * @category CrazyCat
- * @package CrazyCat\Developer
- * @author Bruce Z <152416319@qq.com>
- * @link http://crazy-cat.co
+ * @package  CrazyCat\Developer
+ * @author   Liwei Zeng <zengliwei@163.com>
+ * @link     https://crazy-cat.cn
  */
-Component::getInstance()->register( 'crazycat_theme_backend_default', Component::TYPE_THEME, __DIR__ );
+ComponentManager::getInstance()->register('crazycat_theme_backend_default', ComponentManager::TYPE_THEME, __DIR__);

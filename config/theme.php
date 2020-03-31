@@ -8,8 +8,8 @@
 /**
  * @category CrazyCat
  * @package CrazyCat\Theme\Backend\Default
- * @author Bruce Z <152416319@qq.com>
- * @link http://crazy-cat.co
+ * @author Liwei Zeng <zengliwei@163.com>
+ * @link https://crazy-cat.cn
  */
 return [
     'area' => 'backend',
