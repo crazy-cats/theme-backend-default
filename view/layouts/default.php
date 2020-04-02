@@ -1,7 +1,7 @@
 <?php
 
 /*
- * Copyright © 2018 CrazyCat, Inc. All rights reserved.
+ * Copyright © 2020 CrazyCat, Inc. All rights reserved.
  * See COPYRIGHT.txt for license details.
  */
 
@@ -18,23 +18,23 @@ return [
     ],
     'blocks' => [
         'head' => [
-            'js-in-head' => [ 'class' => 'CrazyCat\Core\Block\Head' ]
+            'js-in-head' => [ 'class' => 'CrazyCat\Base\Block\Head' ]
         ],
         'header' => [
-            'page-title' => [ 'class' => 'CrazyCat\Core\Block\Template', 'data' => [ 'template' => 'CrazyCat\Core::header' ] ]
+            'page-title' => [ 'class' => 'CrazyCat\Base\Block\Template', 'data' => [ 'template' => 'CrazyCat\Base::header' ] ]
         ],
         'left' => [
-            'lang-switcher' => [ 'class' => 'CrazyCat\Core\Block\LanguageSwitcher' ],
+            'lang-switcher' => [ 'class' => 'CrazyCat\Base\Block\LanguageSwitcher' ],
             'main-menu' => [ 'class' => 'CrazyCat\Admin\Block\Menu' ]
         ],
         'messages' => [
-            'message-box' => [ 'class' => 'CrazyCat\Core\Block\Message' ]
+            'message-box' => [ 'class' => 'CrazyCat\Base\Block\Message' ]
         ],
         'main' => [
-            'main-content' => [ 'class' => 'CrazyCat\Core\Block\Template', 'data' => [ 'template' => 'CrazyCat\Core::main' ] ]
+            'main-content' => [ 'class' => 'CrazyCat\Base\Block\Template', 'data' => [ 'template' => 'CrazyCat\Base::main' ] ]
         ],
         'footer' => [
-            'footer-content' => [ 'class' => 'CrazyCat\Core\Block\Template', 'data' => [ 'template' => 'CrazyCat\Core::footer' ] ]
+            'footer-content' => [ 'class' => 'CrazyCat\Base\Block\Template', 'data' => [ 'template' => 'CrazyCat\Base::footer' ] ]
         ]
     ]
 ];
