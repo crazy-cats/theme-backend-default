@@ -7,11 +7,11 @@
 
 /**
  * @category CrazyCat
- * @package CrazyCat\Theme\Backend\Default
- * @author Liwei Zeng <zengliwei@163.com>
- * @link https://crazy-cat.cn
+ * @package  CrazyCat\Theme\Backend\Default
+ * @author   Liwei Zeng <zengliwei@163.com>
+ * @link     https://crazy-cat.cn
  */
 return [
-    'area' => 'backend',
+    'area'  => 'backend',
     'alias' => 'default'
 ];

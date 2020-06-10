@@ -52,7 +52,7 @@ select option { padding:2px 0 2px 10px; }
  * Frame
  */
 body > .wrapper { position:relative; }
-body > .header-wrapper { background:#fff; border-bottom:1px solid #bbb; height:60px; left:240px; min-width:960px; position:fixed; top:0; width:calc( 100% - 240px ); z-index:3; }
+body > .header-wrapper { background:#fff; border-bottom:1px solid #bbb; height:60px; left:240px; position:fixed; top:0; width:calc( 100% - 240px ); z-index:3; }
 body > .header-wrapper:before { background:#fff; bottom:0; content:''; left:0; opacity:.6; position:absolute; right:0; top:0; }
 body > .header-wrapper .header { padding:15px 20px; position:relative; }
 body > .header-wrapper .header .page-title { float:left; font-size:24px; font-weight:normal; line-height:30px; max-width:calc( 100% - 420px ); overflow:hidden; white-space:nowrap; }
@@ -63,7 +63,7 @@ body > .main-wrapper { z-index:2; }
 body > .main-wrapper .left { bottom:0; left:0; overflow:hidden; position:fixed; top:0; width:240px; }
 body > .main-wrapper .left:before { background:#333; bottom:0; content:''; left:0; position:absolute; right:0; top:0; }
 body > .main-wrapper .left > div { position:relative; }
-body > .main-wrapper .main { margin:60px 0 0 240px; min-width:960px; padding:10px 15px; }
+body > .main-wrapper .main { margin:60px 0 0 240px; padding:10px 15px; }
 body > .footer-wrapper { margin:0 0 0 240px; padding:20px; z-index:1; }
 body > .footer-wrapper .footer { text-align:right; }
 body > .footer-wrapper .footer .copyright { font-size:12px; }
@@ -201,7 +201,7 @@ table.profiles tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; heig
 .main-menu > ul > li.active > a:before,
 .main-menu > ul > li > a:hover span,
 .main-menu > ul > li.active > a span { color:#fff; }
-.main-menu > ul > li.item-cms > a:before { content:'\f15c'; }
+.main-menu > ul > li.item-content > a:before { content:'\f15c'; }
 .main-menu > ul > li.item-customer > a:before { content:'\f0c0'; }
 .main-menu > ul > li.item-admin > a:before { content:'\f508'; }
 .main-menu > ul > li.item-url-rewrite-url-rewrite-index > a:before { content:'\f5eb'; }

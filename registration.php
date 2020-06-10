@@ -9,7 +9,7 @@ use CrazyCat\Framework\App\Component\Manager as ComponentManager;
 
 /**
  * @category CrazyCat
- * @package  CrazyCat\Developer
+ * @package  CrazyCat\Theme\Backend\Default
  * @author   Liwei Zeng <zengliwei@163.com>
  * @link     https://crazy-cat.cn
  */
