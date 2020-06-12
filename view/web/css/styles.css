@@ -172,6 +172,11 @@ table.profiles tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; heig
 .backend-edit .field-group-content .row { margin:0 0 15px; }
 .backend-edit .field-group-content .row .field-name { display:block; float:left; padding:8px 10px 8px 0; width:190px; }
 .backend-edit .field-group-content .row .field-content { float:left; width:calc( 100% - 260px ); }
+.backend-edit .field-group-content .row .field-content .file,
+.backend-edit .field-group-content .row .field-content .image { margin:0 0 5px; }
+.backend-edit .field-group-content .row .field-content .file a,
+.backend-edit .field-group-content .row .field-content .image a { display:inline-block; margin:0 10px 0 0; }
+.backend-edit .field-group-content .row .field-content .image img { height:150px; }
 .backend-edit .field-group-content .row .field-content .input-text { padding:8px 10px; }
 .backend-edit .field-group-content .row .field-content select { padding:8px 10px; }
 .backend-edit .field-group-content .row .field-content label.error { color:#f33; display:block; margin:5px 0 0; }
