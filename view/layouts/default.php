@@ -18,31 +18,46 @@ return [
     ],
     'blocks'   => [
         'head'     => [
-            'js-in-head' => ['class' => 'CrazyCat\Base\Block\Head']
+            'class'    => 'CrazyCat\Base\Block\Wrapper',
+            'children' => [
+                'js-in-head' => ['class' => 'CrazyCat\Base\Block\Head']
+            ]
         ],
         'header'   => [
-            'page-title' => [
-                'class' => 'CrazyCat\Base\Block\Template',
-                'data'  => ['template' => 'CrazyCat\Base::header']
+            'class'    => 'CrazyCat\Base\Block\Wrapper',
+            'children' => [
+                'page-title' => [
+                    'class' => 'CrazyCat\Base\Block\Template',
+                    'data'  => ['template' => 'CrazyCat\Base::header']
+                ]
             ]
         ],
         'left'     => [
-            'lang-switcher' => ['class' => 'CrazyCat\Base\Block\LanguageSwitcher'],
-            'main-menu'     => ['class' => 'CrazyCat\Admin\Block\Menu']
+            'class'    => 'CrazyCat\Base\Block\Wrapper',
+            'children' => [
+                'lang-switcher' => ['class' => 'CrazyCat\Base\Block\LanguageSwitcher'],
+                'main-menu'     => ['class' => 'CrazyCat\Admin\Block\Menu']
+            ]
         ],
         'messages' => [
-            'message-box' => ['class' => 'CrazyCat\Base\Block\Message']
+            'class' => 'CrazyCat\Base\Block\Message'
         ],
         'main'     => [
-            'main-content' => [
-                'class' => 'CrazyCat\Base\Block\Template',
-                'data'  => ['template' => 'CrazyCat\Base::main']
+            'class'    => 'CrazyCat\Base\Block\Wrapper',
+            'children' => [
+                'main-content' => [
+                    'class' => 'CrazyCat\Base\Block\Template',
+                    'data'  => ['template' => 'CrazyCat\Base::main']
+                ]
             ]
         ],
         'footer'   => [
-            'footer-content' => [
-                'class' => 'CrazyCat\Base\Block\Template',
-                'data'  => ['template' => 'CrazyCat\Base::footer']
+            'class'    => 'CrazyCat\Base\Block\Wrapper',
+            'children' => [
+                'footer-content' => [
+                    'class' => 'CrazyCat\Base\Block\Template',
+                    'data'  => ['template' => 'CrazyCat\Base::footer']
+                ]
             ]
         ]
     ]
