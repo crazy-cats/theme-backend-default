@@ -40,6 +40,7 @@ body { background:#d9e0e7; color:#555; font:14px/20px 'Microsoft YaHei', Arial, 
 
 
 .button { background:#000; border:0; border-radius:5px; cursor:pointer; display:inline-block; text-decoration:none; }
+.button.red { background:#f00; }
 .button span { color:#fff; display:block; font:16px/20px 'Microsoft YaHei', Arial, Helvetica, sans-serif; padding:6px 24px; text-transform:uppercase; }
 .input-text { background:#e5f7fe; border:1px solid #d3d8de; border-radius:3px; color:#555; font:14px/20px 'Microsoft YaHei', Arial, Helvetica, sans-serif; padding:4px 10px; width:100%; }
 .input-text:focus { border:1px solid #bbb; }
@@ -170,14 +171,17 @@ table.profiles tfoot tr td { background:#f3f6f9; border-radius:0 0 5px 5px; heig
 .backend-edit .field-group-label { cursor:pointer; font-size:18px; padding:0 0 20px; }
 .backend-edit .field-group-content { border-top:1px solid #e2e7eb; display:none; padding:20px 0 30px; }
 .backend-edit .field-group-content .row { margin:0 0 15px; }
+.backend-edit .field-group-content .row .row { margin:0 0 8px; }
 .backend-edit .field-group-content .row .field-name { display:block; float:left; padding:8px 10px 8px 0; width:190px; }
 .backend-edit .field-group-content .row .field-content { float:left; width:calc( 100% - 260px ); }
+.backend-edit .field-group-content .row .field-content .button span { line-height:21px; padding:8px 24px; }
 .backend-edit .field-group-content .row .field-content .file,
 .backend-edit .field-group-content .row .field-content .image { margin:0 0 5px; }
 .backend-edit .field-group-content .row .field-content .file a,
 .backend-edit .field-group-content .row .field-content .image a { display:inline-block; margin:0 10px 0 0; }
 .backend-edit .field-group-content .row .field-content .image img { height:150px; }
 .backend-edit .field-group-content .row .field-content .input-text { padding:8px 10px; }
+.backend-edit .field-group-content .row .field-content .input-text.short { display:block; float:left; margin:0 8px 0 0; width:180px; }
 .backend-edit .field-group-content .row .field-content select { padding:8px 10px; }
 .backend-edit .field-group-content .row .field-content label.error { color:#f33; display:block; margin:5px 0 0; }
 .backend-edit .field-group-content .row:after { clear:both; content:''; display:table; height:0; }
