@@ -36,7 +36,12 @@ return [
             'class'    => 'CrazyCat\Base\Block\Wrapper',
             'children' => [
                 'lang-switcher' => ['class' => 'CrazyCat\Base\Block\LanguageSwitcher'],
-                'main-menu'     => ['class' => 'CrazyCat\Admin\Block\Menu']
+                'main-menu'     => [
+                    'class' => 'CrazyCat\Base\Block\Backend\Menu',
+                    'data'  => [
+                        'cache' => true
+                    ]
+                ]
             ]
         ],
         'messages' => [
